@@ -1,3 +1,10 @@
+# TUGAS UTS PAM
+## Deskripsi Tugas
+### Telah menambahkan logika perpindahan activity
+### Mengubah warna default App
+### Menambah beberapa komponen
+
+
 ## Dokumentasi App
 
 ### Halaman Login
