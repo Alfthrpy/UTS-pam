@@ -12,6 +12,15 @@
     android:layout_marginBottom="25dp"
     tools:context=".ListFoodActivity">
 
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat datang Pengguna"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"/>
     <!-- Judul Halaman -->
     <TextView
         android:id="@+id/tvTitle"
@@ -27,7 +36,20 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:scrollbars="vertical"/>
+
+    <!-- Floating Action Button untuk menambah pesanan -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        android:contentDescription="@string/add_order"
+        android:src="@drawable/shopping"
+        android:backgroundTint="@android:color/holo_blue_light"
+        app:tint="@android:color/white" />
 
 </LinearLayout>

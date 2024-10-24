@@ -2,7 +2,10 @@
     <string name="app_name">UTSproject</string>
     <string name="hint_username">Username</string>
     <string name="hint_password">Password</string>
-    <string name="login">Login\n</string>
+    <string name="login">Login</string>
     <string name="register">Register Here</string>
     <string name="food_list_title">Food and Beverages</string>
+    <string name="name_app">HoyongEmam App</string>
+    <string name="greeting">Welcome Back!</string>
+    <string name="add_order">checkout</string>
 </resources>
