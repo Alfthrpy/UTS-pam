@@ -26,10 +26,10 @@ class ConfirmationActivity : AppCompatActivity() {
         val noteView = findViewById<TextView>(R.id.note_view)
         val backButton = findViewById<Button>(R.id.backtoMenu)
 
-        foodnameView.text = "Food Name: $foodName"
-        numberServeView.text = "Servings: $servings"
-        orderNameView.text = "Ordering Name: $orderingName"
-        noteView.text = "Note: $note"
+        foodnameView.text = "$foodName"
+        numberServeView.text = "$servings"
+        orderNameView.text = "$orderingName"
+        noteView.text = "$note"
 
         backButton.setOnClickListener {
             val intent = Intent(this, ListFoodActivity::class.java)

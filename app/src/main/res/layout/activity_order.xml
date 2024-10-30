@@ -6,11 +6,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="20dp"
+    android:padding="8dp"
     android:layout_margin="20dp"
     tools:context=".OrderActivity">
 
-        <!-- Judul Halaman -->
         <TextView
             android:id="@+id/tvTitle"
             android:layout_width="wrap_content"
@@ -20,6 +19,24 @@
             android:textStyle="bold"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="16dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="4dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="@color/colorBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+
+        <!-- Judul Halaman -->
+
 
         <!-- Input Nama Makanan -->
         <TextView
@@ -33,6 +50,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter food name - Get From List"
+            android:background="@drawable/input_field_background"
             android:padding="12dp"
             android:layout_marginBottom="16dp"/>
 
@@ -49,6 +67,7 @@
             android:layout_height="wrap_content"
             android:hint="Enter number of servings"
             android:inputType="number"
+            android:background="@drawable/input_field_background"
             android:padding="12dp"
             android:layout_marginBottom="16dp"/>
 
@@ -64,6 +83,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Ordering name by"
+            android:background="@drawable/input_field_background"
             android:padding="12dp"
             android:layout_marginBottom="16dp"/>
 
@@ -79,9 +99,12 @@
             android:id="@+id/etNotes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/input_field_background"
             android:hint="Enter any additional notes"
             android:padding="12dp"
             android:layout_marginBottom="16dp"/>
+                </LinearLayout>
+        </androidx.cardview.widget.CardView>
 
         <!-- Tombol Order -->
         <Button
@@ -90,7 +113,8 @@
             android:layout_height="wrap_content"
             android:text="Place Order"
             android:textColor="@android:color/white"
-            android:backgroundTint="@android:color/holo_blue_light"
+            android:backgroundTint="@color/colorSecondary"
+            android:layout_marginTop="16dp"
             android:padding="12dp"/>
 
 </LinearLayout>
