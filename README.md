@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/ae0b2b9e-3d67-4318-a8ce-4913c7e94f8d)# TUGAS UTS PAM
+# TUGAS UTS PAM
 ## Deskripsi Tugas
 ### Telah menambahkan logika perpindahan activity
 ### Mengubah warna default App
